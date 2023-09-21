@@ -88,8 +88,11 @@ class TabView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text(title),
+    return Container(
+      color: Colors.white,
+      child: Center(
+        child: Text(title),
+      ),
     );
   }
 }
@@ -99,9 +102,12 @@ class NewTabView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextButton(
-      child: const Text("add"),
-      onPressed: () {},
+    return Container(
+      color: Colors.white,
+      child: TextButton(
+        child: const Text("add"),
+        onPressed: () {},
+      ),
     );
   }
 }
